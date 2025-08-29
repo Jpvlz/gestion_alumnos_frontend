@@ -1,0 +1,29 @@
+/* Estilos para la navegación */
+.navbar-basic {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand-basic {
+    color: #212529 !important;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-brand-basic:hover {
+    color: #007bff !important;
+}
+
+.nav-link-basic {
+    color: #212529 !important;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.nav-link-basic:hover {
+    color: #007bff !important;
+}
+
+.nav-link-active {
+    color: #007bff !important;
+    font-weight: bold;
+}

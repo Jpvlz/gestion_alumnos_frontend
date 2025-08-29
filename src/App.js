@@ -27,10 +27,6 @@ function Navigation() {
                     as={Link} 
                     to="/" 
                     className="navbar-brand-basic"
-                    style={{ 
-                        color: isActive('/') && location.pathname === '/' ? '#007bff' : '#212529',
-                        fontWeight: 'bold'
-                    }}
                 >
                     Gestión de Alumnos
                 </Navbar.Brand>
@@ -41,10 +37,6 @@ function Navigation() {
                             as={Link} 
                             to="/alumnos"
                             className={`nav-link-basic ${isActive('/alumnos') ? 'nav-link-active' : ''}`}
-                            style={{ 
-                                color: isActive('/alumnos') ? 'white' : '#212529',
-                                fontWeight: isActive('/alumnos') ? 'bold' : 'normal'
-                            }}
                         >
                             Gestión de Alumnos
                         </Nav.Link>
@@ -52,10 +44,6 @@ function Navigation() {
                             as={Link} 
                             to="/crear"
                             className={`nav-link-basic ${isActive('/crear') ? 'nav-link-active' : ''}`}
-                            style={{ 
-                                color: isActive('/crear') ? 'white' : '#212529',
-                                fontWeight: isActive('/crear') ? 'bold' : 'normal'
-                            }}
                         >
                             Crear Alumno
                         </Nav.Link>
