@@ -1,0 +1,22 @@
+/* CrearAlumno Component Styles */
+
+/* Card principal */
+.crear-alumno-card {
+    border: none !important;
+}
+
+/* Título básico */
+.crear-alumno-title {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Campos del formulario básicos */
+.form-control-basic {
+    border: 2px solid #ced4da;
+}
+
+/* Etiquetas básicas */
+.form-label-basic {
+    font-weight: 500;
+}

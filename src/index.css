@@ -5,9 +5,58 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Footer fijo en la parte inferior */
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 40px; /* Altura reducida para ser más pequeño */
+  flex-shrink: 0;
+  margin-top: 30px; /* Espacio adicional arriba del footer */
+}
+
+/* Asegurar que el contenido principal tenga suficiente espacio */
+.main-content {
+  flex: 1;
+  min-height: calc(100vh - 140px); /* Ajustado para footer más pequeño */
+  padding-bottom: 40px; /* Aumentado para dar más espacio antes del footer */
+  margin-bottom: 20px; /* Espacio adicional entre contenido y footer */
+}
+
+/* Layout con flexbox para sticky footer */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Estilos para el footer */
+footer {
+  margin-top: auto !important;
+}
+
+/* Links del footer */
+footer a {
+  color: #adb5bd !important;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ffffff !important;
 }

@@ -1,0 +1,30 @@
+/* GestionAlumnos Component Styles */
+
+/* Card principal */
+.gestion-card {
+    border: none !important;
+}
+
+/* Título básico */
+.gestion-title {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Botones de acción básicos */
+.btn-warning-basic {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.table-compact td {
+    vertical-align: middle;
+    font-size: 0.9rem;
+}
+
+.table-compact th {
+    font-size: 0.9rem;
+    font-weight: 600;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-bottom: 2px solid #dee2e6;
+}

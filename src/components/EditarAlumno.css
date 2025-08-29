@@ -1,0 +1,22 @@
+/* EditarAlumno Component Styles */
+
+/* Card principal */
+.editar-alumno-card {
+    border: none !important;
+}
+
+/* Título básico */
+.editar-alumno-title {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Campos del formulario básicos */
+.form-control-basic {
+    border: 2px solid #ced4da;
+}
+
+/* Etiquetas básicas */
+.form-label-basic {
+    font-weight: 500;
+}

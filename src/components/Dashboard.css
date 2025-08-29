@@ -1,0 +1,44 @@
+/* Dashboard Component Styles */
+
+/* Título principal */
+.dashboard-title {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Cards principales - sin cursor pointer */
+.dashboard-card {
+    border: none !important;
+    cursor: default !important;
+}
+
+/* Tarjetas de estadísticas - sin cursor pointer */
+.stat-card {
+    cursor: default !important;
+}
+
+/* Números/estadísticas */
+.stat-number {
+    display: inline-block;
+    cursor: default !important;
+}
+
+/* Iconos */
+.stat-icon {
+    cursor: default !important;
+}
+
+/* Listas */
+.list-item-basic {
+    cursor: default !important;
+}
+
+/* Badges */
+.badge-basic {
+    cursor: default !important;
+}
+
+/* Asegurar que todos los elementos del dashboard tengan cursor normal */
+.dashboard-card * {
+    cursor: default !important;
+}
